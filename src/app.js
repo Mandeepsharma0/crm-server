@@ -12,7 +12,7 @@ app.set('trust proxy', 1);
 
 // 🌐 CORS for cross-origin frontend access
 app.use(cors({
-  origin: process.env.CLIENT_ORIGIN || 'http://localhost:3000',
+  origin: 'https://crm-client-laej.onrender.com' || 'http://localhost:3000',
   credentials: true
 }));
 
