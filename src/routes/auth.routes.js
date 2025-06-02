@@ -12,7 +12,7 @@ router.get(
   passport.authenticate('google', { failureRedirect: '/login' }),
   (req, res) => {
     // Redirect to frontend home page after successful login
-    res.redirect('http://localhost:3000/home');
+    res.redirect('https://crm-client-laej.onrender.com/home');
   }
 );
 
