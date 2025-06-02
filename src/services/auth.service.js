@@ -9,7 +9,7 @@ passport.use(
       {
         clientID: process.env.GOOGLE_CLIENT_ID,
         clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-        callbackURL: 'http://localhost:3001/api/auth/google/callback',
+        callbackURL: 'https://crm-server-qfv6.onrender.com/api/auth/google/callback',
       },
       async (accessToken, refreshToken, profile, done) => {
         const newUser = {
