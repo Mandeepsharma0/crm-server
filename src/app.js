@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow only your frontend's origin
+  origin: 'https://crm-client-laej.onrender.com', // Allow only your frontend's origin
   credentials: true // Enable credentials
 }));
 app.use(express.json());
